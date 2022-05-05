@@ -199,10 +199,6 @@ Ex: application/json
 
 
 
-![image](https://user-images.githubusercontent.com/97813292/166963327-39c63e9c-63cc-4877-8533-0419172a8ae7.png)
-
-
-
 
 URL to access API Endpoints:
 
