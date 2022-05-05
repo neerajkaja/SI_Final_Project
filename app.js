@@ -67,8 +67,7 @@ async function ComputerVisionAnalyze(url) {
         const res = []
         // URL images containing printed and/or handwritten text. 
         // The URL can point to image files (.jpg/.png/.bmp) or multi-page files (.pdf, .tiff).
-        const printedTextSampleURL = 'https://raw.githubusercontent.com/Azure-Samples/cognitive-services-sample-data-files/master/ComputerVision/Images/printed_text.jpg';
-  
+        const printedTextSampleURL = url
         // Recognize text in printed image from a URL
         console.log('Read printed text from URL...', printedTextSampleURL.split('/').pop());
         const printedResult = await readTextFromURL(computerVisionClient, printedTextSampleURL);
@@ -153,7 +152,7 @@ async function ComputerVisionAnalyze(url) {
 // Routes
 
 app.get('/', (req, res)=> { 
-  res.send("Welcomes page checks whether server is running.")
+  res.send("Welcome, now you try my endpoints using postman.")
 })
 
 app.post('/ComputerVisionAnalyze', (req, res)=>{
