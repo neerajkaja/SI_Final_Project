@@ -147,6 +147,62 @@ http://localhost:3000/ComputerVisionAnalyze
 http://159.203.181.219:3000/ComputerVisionAnalyze
 
 
+1.	200: Success
+2.	400: Invalid arguments, Invalid Request
+Ex: application/json
+
+{
+    "error": {
+        "code": "InvalidRequest",
+        "message": "Input data is not a valid image.",
+        "innererror": {
+            "code": "InvalidImageFormat",
+            "message": "Input data is not a valid image."
+        }
+    }
+}
+
+  3.  415: Unsupported media type error
+
+  Ex: application/json
+
+   {
+      "code": "BadArgument",
+      "message": "Invalid Media Type"
+    }
+
+   4. 500: Internal Service Error
+         
+      Ex: application/json
+       
+       {
+      "error": {
+       "code": "InternalServerError",
+         "message": "Internal server error"
+                 }
+       }
+
+      5. 503: Service Unavailable
+
+        Ex: application/json
+ 
+        {
+          "error": {
+            "code": "ServiceUnavailable",
+                   "message": "The service is temporarily unavailable.",
+                     "innererror": {
+                      "code": "ServiceUnavailable",
+                       "message": "The service is temporarily unavailable."
+                     }
+                }
+            }
+
+
+
+![image](https://user-images.githubusercontent.com/97813292/166963327-39c63e9c-63cc-4877-8533-0419172a8ae7.png)
+
+
+
 
 URL to access API Endpoints:
 
