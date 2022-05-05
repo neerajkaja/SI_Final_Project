@@ -13,8 +13,8 @@ Final Project Documentation
 
 INDEX:
 1.Introduction
-2.Analyze Image Endpoint
-3.Text Extraction (OCR) Endpoint
+2.Text Extraction (OCR) Endpoint
+3.Analyze Image Endpoint
 
 
 
