@@ -147,6 +147,8 @@ http://localhost:3000/ComputerVisionAnalyze
 http://159.203.181.219:3000/ComputerVisionAnalyze
 
 
+Status Codes:
+
 1.	200: Success
 2.	400: Invalid arguments, Invalid Request
 Ex: application/json
