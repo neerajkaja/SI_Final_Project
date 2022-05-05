@@ -45,6 +45,7 @@ In this I used the .dotenv module in order to hide my key and even the endpoint,
 test.env
 
 
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/97813292/166958104-ea29503d-a2bf-494c-878e-434890c6d381.png">
 
 
  
@@ -95,23 +96,15 @@ RESPONSE-
 
 
 
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/97813292/166958200-8fb3a7bb-9771-469f-9dc1-2e269cca7704.png">
 
  
 http://localhost:3000/ComputerVisionOcr
 
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/97813292/166958250-840f30ed-b37e-4ace-ab7d-a6c66e9790ac.png">
 
 
  http://159.203.181.219:3000/ComputerVisionOcr
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -141,11 +134,14 @@ RESPONSE:
 }
 
 
+ <img width="468" alt="image" src="https://user-images.githubusercontent.com/97813292/166958321-b0c1f99f-0a81-429d-89ac-8ca189bf3c79.png">
+
  
 
 http://localhost:3000/ComputerVisionAnalyze
 
 
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/97813292/166958364-b7c15083-ff3d-4f86-b9cc-0604d55d8811.png">
 
  
 http://159.203.181.219:3000/ComputerVisionAnalyze
@@ -157,6 +153,7 @@ URL to access API Endpoints:
 http://159.203.181.219:3000/
 
 
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/97813292/166958413-caac78ee-6b22-4d51-a306-456bc3a510e9.png">
 
  
-![image](https://user-images.githubusercontent.com/97813292/166957728-c4bb7446-cf16-4e18-bcd8-6f65c284b491.png)
+
