@@ -67,7 +67,8 @@ URL-    http://159.203.181.219:3000/ComputerVisionOcr
 
 Request body: 
 {
-    "url":"https://images.unsplash.com/photo-1610878180933-123728745d22?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FuYWRhJTIwbmF0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+    "url": "https://raw.githubusercontent.com/Azure-Samples/cognitive-services-sample-data-files/master/ComputerVision/Images/printed_text.jpg"
+
 }
 
 
@@ -95,13 +96,12 @@ RESPONSE-
 
 
 
-
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/97813292/166958200-8fb3a7bb-9771-469f-9dc1-2e269cca7704.png">
 
  
 http://localhost:3000/ComputerVisionOcr
 
-<img width="468" alt="image" src="https://user-images.githubusercontent.com/97813292/166958250-840f30ed-b37e-4ace-ab7d-a6c66e9790ac.png">
+<img width="1440" alt="Screenshot 2022-05-05 at 2 31 00 PM" src="https://user-images.githubusercontent.com/97813292/166994523-dcc2731a-aea6-4305-bd65-bfd1b0f9733a.png">
 
 
  http://159.203.181.219:3000/ComputerVisionOcr
